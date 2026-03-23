@@ -45,6 +45,8 @@ On the held-out test set:
 
 (These values are from `trainer.evaluate(tokenized_datasets["test"])`.)
 
+The model performs well on Action (F1=0.95) and Slice-of-life (F1=0.85) but shows confusion between Romance and Slice-of-life, likely due to overlapping tonal characteristics in the training data. This is a known limitation of synthetic datasets.
+
 ## Usage
 
 ### In Colab
